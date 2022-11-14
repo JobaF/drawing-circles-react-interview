@@ -30,7 +30,6 @@ function App() {
       )
       setRedoStack((oldArr) => [...oldArr, lastItem])
     }
-    console.log(...redoStack)
   }
 
   const handleRedo = () => {
